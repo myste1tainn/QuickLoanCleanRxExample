@@ -1,0 +1,6 @@
+framework module Pods_QuickLoan {
+  umbrella header "Pods-QuickLoan-umbrella.h"
+
+  export *
+  module * { export * }
+}

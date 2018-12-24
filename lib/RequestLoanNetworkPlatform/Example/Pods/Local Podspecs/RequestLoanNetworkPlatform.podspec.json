@@ -1,0 +1,33 @@
+{
+  "name": "RequestLoanNetworkPlatform",
+  "version": "0.1.0",
+  "summary": "A short description of RequestLoanNetworkPlatform.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/myste1tainn/RequestLoanNetworkPlatform",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "myste1tainn": "a.keereena@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/myste1tainn/RequestLoanNetworkPlatform.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RequestLoanNetworkPlatform/Classes/**/*",
+  "dependencies": {
+    "RequestLoanDomain": [
+
+    ],
+    "RequestLoanNetwork": [
+
+    ],
+    "RxSwift": [
+      "~> 4.0"
+    ]
+  }
+}

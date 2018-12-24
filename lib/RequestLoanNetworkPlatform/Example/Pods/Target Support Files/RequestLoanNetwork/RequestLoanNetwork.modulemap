@@ -1,0 +1,6 @@
+framework module RequestLoanNetwork {
+  umbrella header "RequestLoanNetwork-umbrella.h"
+
+  export *
+  module * { export * }
+}

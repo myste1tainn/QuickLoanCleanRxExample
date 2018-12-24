@@ -1,0 +1,65 @@
+PODS:
+  - Alamofire (4.8.0)
+  - Moya/Core (12.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.0)
+  - Moya/RxSwift (12.0.1):
+    - Moya/Core
+    - RxSwift (~> 4.0)
+  - ObjectMapper (3.4.2)
+  - RequestLoanDomain (0.1.0):
+    - ObjectMapper (~> 3.4)
+    - RxSwift (~> 4.0)
+  - RequestLoanNetwork (0.1.0):
+    - Moya/RxSwift (~> 12.0)
+    - RequestLoanDomain
+  - RequestLoanNetworkPlatform (0.1.0):
+    - RequestLoanDomain
+    - RequestLoanNetwork
+    - RxSwift (~> 4.0)
+  - Result (4.0.0)
+  - RxAtomic (4.4.0)
+  - RxCocoa (4.4.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.0):
+    - RxAtomic (~> 4.4)
+
+DEPENDENCIES:
+  - RequestLoanDomain (from `../lib/RequestLoanDomain`)
+  - RequestLoanNetwork (from `../lib/RequestLoanNetwork`)
+  - RequestLoanNetworkPlatform (from `../lib/RequestLoanNetworkPlatform`)
+  - RxCocoa (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Moya
+    - ObjectMapper
+    - Result
+    - RxAtomic
+    - RxCocoa
+    - RxSwift
+
+EXTERNAL SOURCES:
+  RequestLoanDomain:
+    :path: "../lib/RequestLoanDomain"
+  RequestLoanNetwork:
+    :path: "../lib/RequestLoanNetwork"
+  RequestLoanNetworkPlatform:
+    :path: "../lib/RequestLoanNetworkPlatform"
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  Moya: cf730b3cd9e005401ef37a85143aa141a12fd38f
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  RequestLoanDomain: ab41910a7d6d94f353e481814284c48176c1ee2c
+  RequestLoanNetwork: e1a4ea1f4e474d367700298bf8896c6db4c1a19f
+  RequestLoanNetworkPlatform: 09521520422f82338c48c81ec024d80045e9cefc
+  Result: 7645bb3f50c2ce726dd0ff2fa7b6f42bbe6c3713
+  RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
+  RxCocoa: df63ebf7b9a70d6b4eeea407ed5dd4efc8979749
+  RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
+
+PODFILE CHECKSUM: c4264a9c75ed2f1e057bd80ea2884531438cd13e
+
+COCOAPODS: 1.5.3
